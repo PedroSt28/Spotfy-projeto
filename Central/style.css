@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -14,15 +16,15 @@ body {
 
 .all-d {
     display: flex;
-    height: 100%;
+    height: 88%;
     width: 100%;
 }
 
 
 .cabeça {
     display: flex;
-    width: 100vw;
-    height: 10vh;
+    width: 100%;
+    height: 10%;
     background-color: rgb(7, 6, 6);
     align-items: center;
     justify-content: space-between;
@@ -43,8 +45,10 @@ body {
     width: 43px;
     height: 40px;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 30px;
     border: none;
+    background-color: transparent;
+    color: white;
     margin-left: 30px;
 }
 
@@ -76,6 +80,7 @@ body {
 
 }
 
+
 .bot {
     width: 50%;
     height: 100%;
@@ -83,6 +88,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    color: white;
 }
 
 .bot button {
@@ -92,11 +98,11 @@ body {
     font-size: 15px;
     border: none;
     background-color: transparent;
-    color: gray;
+    color: white;
 }
 
 .user {
-    background-color: gray;
+    background-color: white;
     width: 43px;
     height: 40px;
     border-radius: 30px;
@@ -108,7 +114,7 @@ body {
 .left-side {
     width: 22%;
     height: 100%;
-    background-color: rgb(39, 38, 38);
+    background-color:#161616;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,7 +125,6 @@ body {
 .upper-side {
     width: 95%;
     height: 25%;
-    background-color: rgb(73, 88, 88);
     margin-top: 8px;
 
 }
@@ -127,7 +132,7 @@ body {
 .info {
     width: 100%;
     height: 50px;
-    background-color: rgb(39, 38, 38);
+
     display: flex;
     align-items: center;
 
@@ -150,7 +155,6 @@ body {
     border-radius: 30px;
     font-size: 20px;
     border: none;
-    background-color: rgb(41, 38, 38);
     color: gray;
 
 }
@@ -158,7 +162,7 @@ body {
 .list {
     width: 100%;
     height: 50px;
-    background-color: rgb(39, 38, 38);
+    
     display: flex;
     align-items: center;
 }
@@ -176,7 +180,7 @@ body {
     border: none;
     padding: 5px;
     background-color: rgb(116, 115, 115);
-    color: white;
+    color: rgb(255, 255, 255);
     width: 130%;
 
 }
@@ -184,7 +188,7 @@ body {
 .search {
     width: 100%;
     height: 50px;
-    background-color: rgb(39, 38, 38);
+   
     display: flex;
     align-items: center;
     color: white;
@@ -195,13 +199,13 @@ body {
     width: 80%;
     border-radius: 30px;
     border: none;
-    background-color: rgb(39, 38, 38);
+    background-color: transparent;
 }
 
 .daw-side {
     width: 95%;
     height: 90%;
-    background-color: rgb(39, 38, 38);
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -269,6 +273,8 @@ body {
     background-color: rgb(196, 201, 214);
     text-align: center;
     border-radius: 10px;
+    font-size: 15px;
+    color: rgb(51, 48, 48);
 
 }
 
@@ -370,4 +376,72 @@ body {
     display: flex;
     width: 100%;
     height: 100%;
+}
+
+.rigth-side{
+    width: 20%;
+    height: 100%;
+    margin-top: 8px;
+    display: flex;
+    margin-right: 25px;
+    flex-direction: column;
+    
+}
+
+.play{
+    width: 100%;
+    height: 100%;
+    background-color:#161616;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.play h3{
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.img-play{
+    height: 60%;
+    width: 90%;
+    background-image: url(/assets/botao-spot.jpg);
+    border-radius:3px;
+}
+
+.play-button{
+    width: 90%;
+    height: 10%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.play-button button{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: transparent;
+    background-color: transparent;
+    color: white;
+}
+
+.des-music{
+    width: 80%;
+    height: 20%;
+    margin-top: 10px;
+    background-color: #121212;
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: 10px;
+    
+
+
 }
